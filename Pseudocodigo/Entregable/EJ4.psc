@@ -16,7 +16,7 @@ Proceso EJ4
 			si n < minimo Entonces
 				minimo = n
 			FinSi
-			media = media + n
+			media= n
 		FinSi
 		cont = cont + 1
 	Fin Mientras
