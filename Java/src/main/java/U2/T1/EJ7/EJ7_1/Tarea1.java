@@ -5,11 +5,12 @@ import java.util.Scanner;
 public class Tarea1 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.println("Introduce la contraseña");
+
+    System.out.println("Introduce la contraseña de 4 cifras");
     int contrasnia = sc.nextInt();
     int respuesta;
     System.out.println("Escribe la contraseña correcta: ");
-    for (int i = 3; i > 0; i--) {
+    for (int i = 3; i >= 0; i--) {
       respuesta = sc.nextInt();
       if (contrasnia != respuesta) {
         System.out.println(

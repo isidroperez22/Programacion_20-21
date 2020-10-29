@@ -19,9 +19,8 @@ public class Tarea15 {
     System.out.print("Ingresa un numero: ");
     int n = sc.nextInt();
     int es_primo = 0;
-    for (int x = 1; x < n + 1; x++) {
+    for (int x = n; x < n + 5; x++) {
       int cont = 0;
-
       for (int i = 1; i <= x; i++) {
         if ((x % i) == 0) {
           cont++;

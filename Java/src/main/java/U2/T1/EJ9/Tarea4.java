@@ -10,8 +10,7 @@ public class Tarea4 {
     String frase = sc.nextLine();
     int mitad = frase.length() / 2;
     String espacio = frase.substring(mitad, mitad + 1);
-    String espacio2 = " ";
-    if (espacio.equals(espacio2)) {
+    if (espacio.equals(" ")) {
       System.out.println("Es un espacio");
     } else {
       System.out.println("No es un espacio");
