@@ -20,7 +20,7 @@ public class Tarea2 {
             + " palabras");
     System.out.printf("Escribe la respuesta: ");
     String res = sc.next();
-    if (res == contra) {
+    if (res.equals(contra)) {
       System.out.printf("Acertaste");
     } else {
       System.out.printf("Fallaste");

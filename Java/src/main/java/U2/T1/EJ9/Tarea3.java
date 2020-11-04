@@ -16,14 +16,14 @@ public class Tarea3 {
             + " y tiene "
             + contra.length()
             + " palabras");
-    System.out.printf("Escribe la respuesta: ");
+    System.out.println("Escribe la respuesta: ");
     String res = sc.next();
-    if (res == contra) {
-      System.out.printf("Acertaste");
+    if (res.equals(contra)) {
+      System.out.print("Acertaste");
     } else if (res.charAt(0) > contra.charAt(0)) {
-      System.out.printf("Menor");
+      System.out.print("Menor");
     } else {
-      System.out.printf("Mayor");
+      System.out.print("Mayor");
     }
   }
 }
