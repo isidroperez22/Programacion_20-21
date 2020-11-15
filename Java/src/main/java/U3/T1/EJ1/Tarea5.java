@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Tarea5 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.println("Escribe dos numeros: ");
+    System.out.println("Escribe tres numeros: ");
     int n = sc.nextInt();
     int x = sc.nextInt();
     int i = sc.nextInt();
