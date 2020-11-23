@@ -1,4 +1,4 @@
-package U3.T1.EJ1;
+package U3.EJ1;
 // Calcular el factorial de n recursivamente. Recordar que por definición, el factorial de 0 es 1.
 import java.util.Scanner;
 
