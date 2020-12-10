@@ -36,6 +36,16 @@ public class Tarea4 {
       }
       System.out.println();
     }
-    System.out.println("Introduca una posicion;");
+    System.out.println("Introduca una posicion: ");
+    int posicionx = sc.nextInt();
+    int posiciony = sc.nextInt();
+    do {
+      int cont_bombas = 0;
+      System.out.println("Hay " + cont_bombas + " bombas al alrededor");
+      cont_bombas = 0;
+      posicionx = sc.nextInt();
+      posiciony = sc.nextInt();
+    } while (a[posicionx][posiciony].equals("X"));
+    System.out.println("Bomba encontarda ");
   }
 }
