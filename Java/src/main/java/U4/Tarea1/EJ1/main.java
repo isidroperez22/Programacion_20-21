@@ -1,4 +1,4 @@
-package U4.Tarea1;
+package U4.Tarea1.EJ1;
 
 public class main {
   public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class main {
     if (c1.sacar_dinero(30)) {
       System.out.println("Ha sacado dinero");
     } else {
-      System.out.println("Lo siento no puede sacar ese dinero");
+      System.out.println("No ha podido sacar dinero");
     }
     c1.ingresar_saldo(300);
     c1.mostrar_informacion();

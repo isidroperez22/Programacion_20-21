@@ -1,4 +1,4 @@
-package U4.Tarea1;
+package U4.Tarea1.EJ1;
 
 public class CuentaCorriente {
   private long saldo;
@@ -13,25 +13,25 @@ public class CuentaCorriente {
     limite = -50;
   }
 
+  void ingresar_saldo(long dinero) {
+    if (dinero > 0) {
+      this.saldo = saldo + dinero;
+    }
+  }
+
   boolean sacar_dinero(long dinero) {
     boolean confirma = false;
-    if (saldo - dinero <= limite) {
-      saldo = saldo - dinero;
+    if (saldo - dinero >= limite) {
+      this.saldo = saldo - dinero;
       confirma = true;
     }
     return confirma;
   }
 
-  void ingresar_saldo(long dinero) {
-    if (dinero > 0) {
-      saldo = saldo + dinero;
-    }
-  }
-
   void mostrar_informacion() {
-    System.out.println(nombre);
-    System.out.println(dni);
-    System.out.println(saldo + "€");
-    System.out.println(limite + "€");
+    System.out.println(this.nombre);
+    System.out.println(this.dni);
+    System.out.println(this.saldo + "€");
+    System.out.println(this.limite + "€");
   }
 }
